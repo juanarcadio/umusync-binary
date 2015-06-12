@@ -10,66 +10,12 @@
 	<packaging>pom</packaging>
 
 	<parent>
-		<groupId>org.sakaiproject</groupId>
-		<artifactId>master</artifactId>
-		<version>10.4</version>
+		<groupId>umusync-binary</groupId>
+		<artifactId>binary-maker</artifactId>
+		<version>2.0-SNAPSHOT</version>
 	</parent>
 	
-	<repositories>
-		<repository>
-			<id>sakai-maven</id>
-			<name>Sakai Maven Repo</name>
-			<layout>default</layout>
-			<url>http://source.sakaiproject.org/maven2</url>
-			<releases>
-				<enabled>true</enabled>
-				<checksumPolicy>ignore</checksumPolicy>
-			</releases>
-			<snapshots>
-				<enabled>false</enabled>
-				<checksumPolicy>ignore</checksumPolicy>
-			</snapshots>
-		</repository>
-		<repository>
-			<id>sakai-maven2-snapshots</id>
-			<name>Sakai Maven Repo</name>
-			<layout>default</layout>
-			<url>http://source.sakaiproject.org/maven2-snapshots</url>
-			<releases>
-				<enabled>false</enabled>
-				<checksumPolicy>ignore</checksumPolicy>
-			</releases>
-			<snapshots>
-				<enabled>true</enabled>
-				<checksumPolicy>ignore</checksumPolicy>
-			</snapshots>
-		</repository>
-		<repository>
-			<id>default</id>
-			<name>Maven Repository Switchboard</name>
-			<layout>default</layout>
-			<url>http://repo1.maven.org/maven2</url>
-			<releases>
-				<enabled>true</enabled>
-				<checksumPolicy>ignore</checksumPolicy>
-			</releases>
-			<snapshots>
-				<enabled>false</enabled>
-				<checksumPolicy>ignore</checksumPolicy>
-			</snapshots>
-		</repository>
-	</repositories>
-
-	<properties>
-		<umu.hibernate.entitymanager.version>3.6.10.Final</umu.hibernate.entitymanager.version>
-		<umu.hibernate.validator.version>3.1.0.GA</umu.hibernate.validator.version>
-		<umu.jsf.version>1.1.02</umu.jsf.version>
-		<umu.myfaces.version>1.1.5</umu.myfaces.version>
-		<umu.richfaces.version>3.1.6.CR1</umu.richfaces.version>
-		<umu.taglibs.version>1.0.4</umu.taglibs.version>
-		<umu.testng.version>5.11</umu.testng.version>
-	</properties>
-
+	
 	<dependencies>
 
 		<!-- LIBs -->
