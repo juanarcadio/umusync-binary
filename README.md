@@ -1,2 +1,2 @@
-# umusync
-Umusync: Contrib tool for Sakai https://confluence.sakaiproject.org/display/UMUSYNC
+# umusync-binary
+To create the binary files of umusync project: https://github.com/juanarcadio/umusync
