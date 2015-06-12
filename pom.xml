@@ -94,7 +94,7 @@
 				<artifactId>maven-release-plugin</artifactId>
 				<version>2.5.2</version>
 				<configuration>
-					<tagNameFormat>umusync-@{project.version}</tagNameFormat>
+					<tagNameFormat>umusync-binary-@{project.version}</tagNameFormat>
 					<autoVersionSubmodules>true</autoVersionSubmodules>
 					<goals>clean install -DcreateChecksum=true</goals>
 				</configuration>
