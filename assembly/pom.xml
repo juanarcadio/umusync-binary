@@ -108,6 +108,7 @@
 				<artifactId>maven-assembly-plugin</artifactId>
 				<configuration>
 					<outputDirectory>../binary</outputDirectory>
+					<finalName>umusync-${project.version}</finalName>
 					<descriptors>
 						<descriptor>src/main/assembly/deploy.xml</descriptor>
 					</descriptors>
