@@ -54,13 +54,6 @@
 		
 		<!-- DAOs -->
 		<dependency>
-			<groupId>umu.sakai-contrib.kernel</groupId>
-			<artifactId>sakai-umukernel-dao</artifactId>
-			<version>${project.version}</version>
-			<scope>compile</scope>
-		</dependency>
-		
-		<dependency>
 			<groupId>umu.sakai-contrib.umusync</groupId>
 			<artifactId>umusync-dao</artifactId>
 			<version>${project.version}</version>

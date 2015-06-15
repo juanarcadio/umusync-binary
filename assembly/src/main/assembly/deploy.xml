@@ -15,7 +15,6 @@
 		        <include>org.hibernate:hibernate-entitymanager</include>
 		        <include>org.hibernate:hibernate-validator</include>
 				<include>umu.sakai-contrib.kernel:sakai-umukernel-api:jar:*</include>
-				<include>umu.sakai-contrib.kernel:sakai-umukernel-dao:jar:*</include>
 				<include>umu.sakai-contrib.umujobs:umujobs-api:jar:*</include>
 				<include>umu.sakai-contrib.umusync:umusync-api:jar:*</include>
 				<include>umu.sakai-contrib.umusync:umusync-dao:jar:*</include>
