@@ -6,13 +6,13 @@
 	<groupId>umusync-binary</groupId>
 	<artifactId>assembly</artifactId>
 
-	<version>10-SNAPSHOT</version>
+	<version>11-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<parent>
 		<groupId>umusync-binary</groupId>
 		<artifactId>binary-maker</artifactId>
-		<version>10-SNAPSHOT</version>
+		<version>11-SNAPSHOT</version>
 	</parent>
 	
 	
@@ -30,74 +30,44 @@
 			<version>${umu.hibernate.validator.version}</version>
 		</dependency>
 
-		<!-- APIs -->
+		<!-- API -->
 		<dependency>
-			<groupId>umu.sakai-contrib.umujobs</groupId>
-			<artifactId>umujobs-api</artifactId>
-			<version>10-SNAPSHOT</version>
-			<scope>compile</scope>
-		</dependency>
-		
-		<dependency>
-			<groupId>umu.sakai-contrib.kernel</groupId>
-			<artifactId>sakai-umukernel-api</artifactId>
-			<version>10-SNAPSHOT</version>
-			<scope>compile</scope>
-		</dependency>
-		
-		<dependency>
-			<groupId>umu.sakai-contrib.umusync</groupId>
+			<groupId>umu.sakai-contrib</groupId>
 			<artifactId>umusync-api</artifactId>
-			<version>10-SNAPSHOT</version>
+			<version>11-SNAPSHOT</version>
 			<scope>compile</scope>
 		</dependency>
 		
-		<!-- DAOs -->
+		<!-- DAO -->
 		<dependency>
-			<groupId>umu.sakai-contrib.umusync</groupId>
+			<groupId>umu.sakai-contrib</groupId>
 			<artifactId>umusync-dao</artifactId>
-			<version>10-SNAPSHOT</version>
+			<version>11-SNAPSHOT</version>
 			<scope>compile</scope>
 		</dependency>
 		
 		<!-- Help -->
 		<dependency>
-			<groupId>umu.sakai-contrib.umusync</groupId>
+			<groupId>umu.sakai-contrib</groupId>
 			<artifactId>umusync-help</artifactId>
-			<version>10-SNAPSHOT</version>
+			<version>11-SNAPSHOT</version>
 			<scope>compile</scope>
 		</dependency>
 
 		<!-- Components -->
 		<dependency>
-			<groupId>umu.sakai-contrib.kernel</groupId>
-			<artifactId>sakai-umukernel-component</artifactId>
-			<version>10-SNAPSHOT</version>
-			<scope>compile</scope>
-			<type>war</type>
-		</dependency>
-		
-		<dependency>
-			<groupId>umu.sakai-contrib.umujobs</groupId>
-			<artifactId>umujobs-pack</artifactId>
-			<version>10-SNAPSHOT</version>
-			<scope>compile</scope>
-			<type>war</type>
-		</dependency>
-
-		<dependency>
-			<groupId>umu.sakai-contrib.umusync</groupId>
+			<groupId>umu.sakai-contrib</groupId>
 			<artifactId>umusync-pack</artifactId>
-			<version>10-SNAPSHOT</version>
+			<version>11-SNAPSHOT</version>
 			<scope>compile</scope>
 			<type>war</type>
 		</dependency>
 		
 		<!-- webapps -->
 		<dependency>
-			<groupId>umu.sakai-contrib.umusync</groupId>
+			<groupId>umu.sakai-contrib</groupId>
 			<artifactId>umusync-tool</artifactId>
-			<version>10-SNAPSHOT</version>
+			<version>11-SNAPSHOT</version>
 			<scope>compile</scope>
 			<type>war</type>
 		</dependency>		

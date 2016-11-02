@@ -14,38 +14,18 @@
 			<includes>
 		        <include>org.hibernate:hibernate-entitymanager</include>
 		        <include>org.hibernate:hibernate-validator</include>
-				<include>umu.sakai-contrib.kernel:sakai-umukernel-api:jar:*</include>
-				<include>umu.sakai-contrib.umujobs:umujobs-api:jar:*</include>
-				<include>umu.sakai-contrib.umusync:umusync-api:jar:*</include>
-				<include>umu.sakai-contrib.umusync:umusync-dao:jar:*</include>
-				<include>umu.sakai-contrib.umusync:umusync-help:jar:*</include>		
+				<include>umu.sakai-contrib:umusync-api:jar:*</include>
+				<include>umu.sakai-contrib:umusync-dao:jar:*</include>
+				<include>umu.sakai-contrib:umusync-help:jar:*</include>		
 			</includes>			
 		</dependencySet>
 		
 		<!-- stuff that goes into components -->
 		<dependencySet>
-			<outputDirectory>components/sakai-umukernel-component</outputDirectory>
-			<useTransitiveDependencies>false</useTransitiveDependencies>
-			<includes>
-				<include>umu.sakai-contrib.kernel:sakai-umukernel-component:war:*</include>
-			</includes>
-			<unpack>true</unpack>
-		</dependencySet>
-		
-		<dependencySet>
-			<outputDirectory>components/sakai-umujobs-component</outputDirectory>
-			<useTransitiveDependencies>false</useTransitiveDependencies>
-			<includes>
-				<include>umu.sakai-contrib.umujobs:umujobs-pack:war:*</include>
-			</includes>
-			<unpack>true</unpack>
-		</dependencySet>
-		
-		<dependencySet>
 			<outputDirectory>components/sakai-umusync-component</outputDirectory>
 			<useTransitiveDependencies>false</useTransitiveDependencies>
 			<includes>
-				<include>umu.sakai-contrib.umusync:umusync-pack:war:*</include>
+				<include>umu.sakai-contrib:umusync-pack:war:*</include>
 			</includes>
 			<unpack>true</unpack>
 		</dependencySet>
@@ -56,7 +36,7 @@
             <outputFileNameMapping>${artifact.artifactId}.war</outputFileNameMapping>
             <useTransitiveDependencies>false</useTransitiveDependencies>
             <includes>
-                <include>umu.sakai-contrib.umusync:umusync-tool:war:*</include>
+                <include>umu.sakai-contrib:umusync-tool:war:*</include>
             </includes>
             <unpack>false</unpack>
         </dependencySet>
